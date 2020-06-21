@@ -571,6 +571,8 @@ section.slider-area .slider-inner-wrap .slick-dots {
   top: 50%;
   left: 50%;
   right: 0;
+  -webkit-transition: all 2s at-ease;
+  transition: all 2s at-ease;
   text-align: center;
   transform: translate(-50%, -50%);
   -webkit-transform: translate(-50%, -50%);
@@ -618,9 +620,10 @@ section.slider-area .slider-inner-wrap .slick-dots {
   color: #fff;
 }
 
-#gallery-area:hover .gallery-content {
-  opacity: 1;
-  visibility: visible;
+.gallery-unit:hover .gallery-content.text-center {
+  opacity: 1 !important;
+  cursor: pointer;
+  visibility: visible !important;
 }
 
 .header-top, #pricing-area .single-pricing:hover {
