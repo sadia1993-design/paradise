@@ -844,6 +844,10 @@ footer .footer-area {
   border-bottom: 1px solid #ddd;
 }
 
+footer .footer-area .footer-widget h4 {
+  margin-bottom: 30px;
+}
+
 footer .footer-area .footer-widget .logo img {
   width: 150px;
   margin-bottom: 20px;
