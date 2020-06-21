@@ -752,6 +752,19 @@ section.slider-area .slider-inner-wrap .slick-dots {
   -o-border-radius: 50%;
 }
 
+.testimonial-imges.slick-initialized.slick-slider i {
+  background: #fff;
+  border-radius: 100%;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  color: #eee;
+  position: absolute;
+  left: -63px;
+  top: 45px;
+}
+
 /*-------------------blog area------------*/
 #service-area .service-title h3, #why-choose .service-title h3, #pricing-area .service-title h3, #gallery-area .service-title h2, #appointment-area .appointment-init .service-title h2, #blog-area .service-title h2 {
   font-size: 36px;
