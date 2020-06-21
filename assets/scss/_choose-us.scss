@@ -1,0 +1,123 @@
+/*----------------why choose us area -------------------*/
+
+%title-heading {
+    font-size: 36px;
+    line-height: 36px;
+    margin: 0;
+    font-weight: 500;
+    color: #000;
+    padding-bottom: 30px;
+    position: relative;
+}
+
+%title-after {
+    content: "";
+    width: 38px;
+    height: 4px;
+    background-image: linear-gradient(0deg, #aaaaff 0%, #fcbaf8 100%);
+    top: 100%;
+    position: absolute;
+    left: 50%;
+    margin-left: -19px;
+}
+
+#why-choose {
+    padding: 100px 0;
+    background-color: #f5f5f9;
+    .service-title {
+        margin-bottom: 100px;
+        h3 {
+            @extend %title-heading;
+            &:after {
+                @extend %title-after;
+            }
+        }
+        p {
+            margin-top: 29px;
+        }
+    }
+    .choose-img {
+        img {
+            width: 100%;
+            height: 472px;
+            background-image: linear-gradient(0deg, #aaaaff 0%, #fcbaf8 100%);
+            display: block;
+            position: relative;
+        }
+        .choose-nmb {
+            span {
+                font-weight: 600;
+                font-size: 45px;
+                color: #000;
+                font-family: serif;
+                position: absolute;
+                bottom: 50%;
+                left: 50%;
+                margin-left: -79px;
+                margin-bottom: -33.5px;
+            }
+        }
+    }
+    .choose-wrapper {
+        margin-left: 30px;
+        .why-choose-content {
+            padding-top: 60px;
+            h3 {
+                font-size: 24px;
+                line-height: 27px;
+                font-weight: 800;
+                margin-bottom: 20px;
+                font-family: serif;
+            }
+            ul {
+                margin: 0;
+                padding: 0;
+                list-style-type: none;
+                li {
+                    font-family: serif;
+                    i {
+                        margin-right: 10px;
+                        color: greenyellow;
+                    }
+                }
+            }
+        }
+        .why-choose-counter {
+            margin-top: 30px;
+            ul {
+                margin: 0;
+                padding: 0;
+                list-style-type: none;
+                justify-content: space-evenly;
+                margin-bottom: 35px;
+                li {
+                    font-family: serif;
+                    font-weight: bold;
+                    font-size: 20px;
+                    span {
+                        font-family: serif;
+                        display: block;
+                        text-align: center;
+                        font-weight: 700;
+                        font-size: 30px;
+                        background: -webkit-linear-gradient(#aaaaff, #fcbaf8);
+                        -webkit-background-clip: text;
+                        -webkit-text-fill-color: transparent;
+                    }
+                }
+            }
+        }
+        .choose-btn {
+            a {
+                background: linear-gradient(#aaaaff, #fcbaf8);
+                border: 0;
+                padding: 17px 31px;
+                font-weight: 500;
+                i {
+                    margin-right: 8px;
+                    color: #fff;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,244 @@
+/* ----------------Basic css----------------*/
+
+@import '_basic';
+
+/* ----------------Top Header----------------*/
+
+@import '_variable';
+@import '_header';
+@import '_service';
+@import '_choose-us.scss';
+@import '_pricing';
+@import '_gallery';
+@import '_appointment';
+
+/*----------testimonial---------------*/
+
+#testimonial-area {
+    padding: 80px 0;
+    background: #eee;
+    .testimonial-init {
+        .testi-icon {
+            i {
+                color: #999;
+                margin-bottom: 27px;
+                font-size: 31px;
+            }
+        }
+        .testi-content {
+            p {
+                font-family: serif;
+            }
+        }
+        .testi-review {
+            span {
+                font-family: serif;
+                font-weight: bold;
+                position: relative;
+                &::after {
+                    position: absolute;
+                    content: '\f005 \f005 \f005 \f005 \f005';
+                    font-family: 'Font Awesome 5 Free';
+                    color: #eddb13;
+                    margin-left: 7px;
+                }
+            }
+            p {
+                font-family: serif;
+            }
+        }
+    }
+    .testimonial-imges {
+        width: 390px;
+        margin: 0 auto;
+        padding-top: 30px;
+        .item {
+            img {
+                width: 80px;
+                height: 80px;
+                margin-right: 10px;
+                background: #999;
+                display: block;
+                border-radius: 50%;
+                -webkit-border-radius: 50%;
+                -moz-border-radius: 50%;
+                -ms-border-radius: 50%;
+                -o-border-radius: 50%;
+            }
+        }
+    }
+}
+
+
+/*-------------------blog area------------*/
+
+@import '_blog';
+
+/*-----------------------footer--------------------*/
+
+footer {
+    background: linear-gradient(0deg, #aaaaff 0%, #fcbaf8 100%);
+    position: relative;
+    .footer-area {
+        padding: 80px 0;
+        border-bottom: 1px solid #ddd;
+        .footer-widget {
+            .logo {
+                img {
+                    width: 150px;
+                    margin-bottom: 20px;
+                }
+            }
+            span {
+                font-family: serif;
+            }
+            .footer-social {
+                ul {
+                    margin: 0;
+                    padding: 0;
+                    list-style: none;
+                    li {
+                        display: inline-block;
+                        a {
+                            i {
+                                color: #C71585;
+                            }
+                        }
+                    }
+                }
+            }
+            h4 {
+                font-family: serif;
+            }
+        }
+    }
+    .copyright {
+        padding: 25px 0;
+        span {
+            font-family: serif;
+        }
+        .footer-menu {
+            ul {
+                margin: 0;
+                padding: 0;
+                list-style: none;
+                li {
+                    display: inline-block;
+                    &:last-child {
+                        a {
+                            margin-right: 0px;
+                        }
+                    }
+                    a {
+                        display: block;
+                        font-family: serif;
+                        color: #000;
+                        margin-right: 14px;
+                    }
+                }
+            }
+        }
+    }
+    /* button navigate top*/
+    #buttonTop {
+        position: fixed;
+        right: 25px;
+        bottom: 16px;
+        background: #C71585;
+        padding: 10px 15px;
+        border-radius: 50%;
+        a {
+            i {
+                color: #fff;
+            }
+        }
+    }
+}
+
+.footer-two {
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        li {
+            display: inline-block;
+            span {
+                font-family: serif;
+            }
+            a {
+                font-family: serif;
+                display: block;
+                color: #000;
+            }
+        }
+    }
+}
+
+.footer-three {
+    form {
+        margin-bottom: 20px;
+        input {
+            border: 0;
+            padding: 7px 9px;
+            width: 100%;
+            position: relative;
+        }
+        button {
+            position: absolute;
+            right: 15px;
+            padding: 7px 9px;
+            border: 0;
+            font-family: serif;
+        }
+    }
+}
+
+.footer-four {
+    .instagram {
+        ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            li {
+                display: inline-block;
+                a {
+                    display: block;
+                    img {
+                        width: 80px;
+                        height: 80px;
+                        display: block;
+                        background: mediumvioletred;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+/* cart dropdown */
+
+ul.dropdown-menu.header-cart.show {
+    li {
+        border-bottom: 1px solid #eee;
+        width: 92%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 25px;
+        &:first-child {
+            margin-top: 25px;
+        }
+        &:last-child {
+            border-bottom: 0;
+        }
+        a {
+            background: linear-gradient(0deg, #aaaaff 0%, #fcbaf8 100%);
+            border: 0;
+            font-weight: bold;
+            margin-bottom: 10px;
+             :last-child {
+                margin-bottom: 0px;
+            }
+        }
+    }
+}

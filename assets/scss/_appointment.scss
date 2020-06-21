@@ -1,0 +1,71 @@
+ %theme-gradient {
+     background-image: linear-gradient(0deg, rgb(170, 170, 255) 0%, rgb(252, 186, 248) 100%);
+ }
+ 
+ %title-heading {
+     font-size: 36px;
+     line-height: 36px;
+     margin: 0;
+     font-weight: 500;
+     color: #000;
+     padding-bottom: 30px;
+     position: relative;
+ }
+ 
+ %title-after {
+     content: "";
+     width: 38px;
+     height: 4px;
+     background-image: linear-gradient(0deg, #aaaaff 0%, #fcbaf8 100%);
+     top: 100%;
+     position: absolute;
+     left: 50%;
+     margin-left: -19px;
+ }
+ 
+ #appointment-area {
+     padding: 100px 0;
+     .appoint-img {
+         img {
+             width: 100%;
+             height: 400px;
+             background: linear-gradient(0deg, #aaaaff 0%, #fcbaf8 100%);
+             display: block;
+         }
+     }
+     .appointment-init {
+         padding-top: 82px;
+         .service-title {
+             span {
+                 font-family: serif;
+             }
+             h2 {
+                 font-family: serif;
+                 @extend %title-heading;
+                 &:after {
+                     @extend %title-after;
+                 }
+             }
+         }
+         .appointment-content {
+             margin-top: 30px;
+             h2 {
+                 font-size: 31px;
+                 font-family: serif;
+                 font-weight: bold;
+             }
+             p {
+                 font-family: serif;
+             }
+             a {
+                 font-family: serif;
+                 background: linear-gradient(0deg, #aaaaff 0%, #fcbaf8 100%);
+                 color: #fff;
+                 border: 0;
+                 padding: 15px 20px;
+                 font-weight: bold;
+                 margin-top: 15px;
+             }
+         }
+     }
+ }

@@ -1,0 +1,73 @@
+/* ----------------Basic css----------------*/
+/* ----------------Top Header----------------*/
+.header-top {
+  background-image: linear-gradient(0deg, #aaaaff 0%, #fcbaf8 100%);
+}
+
+.header-top .header-info {
+  padding: 12px 0;
+}
+.header-top .header-info ul {
+  margin: 0;
+  padding: 0;
+}
+.header-top .header-info ul li {
+  display: inline-block;
+  color: #fff;
+  margin-right: 32px;
+  font-weight: bold;
+}
+.header-top .header-info ul li i {
+  color: #fff;
+  margin-right: 12px;
+}
+.header-top .header-top-social {
+  padding: 12px 0;
+}
+.header-top .header-top-social span {
+  color: #fff;
+  border-right: 2px solid #fff;
+  padding-right: 11px;
+  font-weight: bold;
+}
+.header-top .header-top-social ul {
+  margin: 0;
+  padding: 0;
+  float: right;
+}
+.header-top .header-top-social ul li {
+  display: inline-block;
+}
+.header-top .header-top-social ul li a {
+  display: block;
+  color: #fff;
+  margin-right: 7px;
+}
+
+.header-area {
+  padding: 30px;
+}
+.header-area .menu-area nav ul {
+  list-style: none;
+}
+.header-area .menu-area nav ul li {
+  display: inline-block;
+}
+.header-area .menu-area nav ul li a {
+  color: #000;
+  text-decoration: none;
+  margin-right: 35px;
+  text-transform: uppercase;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+  display: block;
+  font-weight: bold;
+}
+.header-area .menu-area nav ul li a:hover {
+  color: #fac0f9;
+}
+
+/*# sourceMappingURL=style.css.map */
